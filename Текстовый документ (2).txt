@@ -1,0 +1,116 @@
+Файл с разрешением CSS:  
+ body {
+  font-family: Areal, sans-serif;
+  }
+  .foto{
+width: 400px;
+height: 500px;
+margin-bottom: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container {
+display: flex;
+justify-content: space-between;
+width: 800px;
+height: 1100px;
+background-color: #fde8e8;
+}
+.left-side {
+display: flex;
+flex-direction: column;
+}
+.right-side {
+display: flex;
+flex-direction: column;
+}
+.rectangle {
+width: 330px;
+height: 330px;
+background-color: #644141;
+margin-bottom: 10px;
+margin-right: 20px;
+margin-left: 20px;
+margin-block: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+
+
+}
+p {
+  color: #FFF2F2;
+}
+h3 {
+  font-size: 20px;  
+}  
+
+
+
+
+Файл с разрешением HTML: 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB</title>
+</head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./lib/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Фигма </title>
+</head>
+<body>
+<div class="container">
+<div class="left-side">
+<div class="foto"><span><img width="250" height="230" src="https://sun9-62.userapi.com/impg/Q67y-kQru-TmIM18jQmsFtdGpq9wfQEygBLR7A/St2J0Mdrx1s.jpg?size=966x847&quality=95&sign=6f0040244fc1ef7938aa80a5c4eb1df1&type=album"></span>
+</div>
+<div class="rectangle"><span><h3 style="color: #FFF2F2"> 📞Контакты:
+<div style="width: 140px; height: 10px; display: inline-block;"></div>
+</h3> 
+<p>8-950-240-47-56</p>
+<p> sprig_sakura@inbox.ru </p>
+</div>
+<div class="rectangle"><span><h3 style="color: #FFF2F2"> Изучаемые языки:</h3>
+<p>Английский, русский
+<div style="width: 300px; height: 17px; display: inline-block"></div></li></p></span></div>
+<div class="rectangle"><span><h3 style="color: #FFF2F2";>Направления, которые
+<div> наиболее интересны:</h3>
+<p> разработка игр, UI/UX дихайн
+<div style="width: 300px; height: 22px; display: inline-block"></div></li></p></span></div>
+<div class="rectangle"><span><h3 style="color: #FFF2F2">⭐Желаемые профессии:<div style="width: 160px; height: 12px;"></h3>
+<p>Дизайнер/архитектор </p> 
+</span></div>
+<div class="rectangle"><span><h3 style="color: #FFF2F2"> ❤ Интересы <div style="width: 160px; height: 12px; display: inline-block"></div></h3>
+<p>Рисование, искусство, музыка
+</span></div>
+</div>
+<div class="right-side">
+<div class="rectangle"><span><ul><h3 style="color: #FFF2F2">О себе
+<div style="width: 170px; height: 12px; display: inline-block"></div>
+</h3>
+<p> Целеустремленная, 
+амбициозная личность,
+осваиваю фотошоп с помощью 
+курсов, люблю находиться в
+компании, стремлюсь
+самореализоваться в жизни.
+</p></span></div>
+<div class="rectangle"><span><ul><h3 style="color: #FFF2F2"> 💡Образование
+</h3>
+<p>Ярославский государственный технический университет 09.03.04 “Программная инженерия” ЦПИ-11а</p></span></div>
+<div class="rectangle"><span><h3 style="color: #FFF2F2">✅Навыки 
+<div style="width: 180px; height: 12px; display: inline-block"></div></h3>
+<p>
+Коммуникабельность, ведение переговоров, умение принимать решения лидерские качества.
+</span></div>
+<div class="rectangle"><span><h3 style="color: #FFF2F2">Языки
+  <div> программирования</h3>
+<p> Паскаль
+<div style="width: 300px; height: 10px; display: inline-block"></div>
+</p></span></div>
+</div>
+</div>
+</body>
+</html>
